@@ -2,17 +2,50 @@ html,body {
     height:100%;
     width:100%;
     margin:0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align:center;
 }
 
 header {
-    position:fixed;
+    position:sticky;
     top:0;
     width:100%;
+    height:8%;
+    background-color:red;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-links {
+    align-self: center;
 }
 
 #welcome-section {
     height:100%;
+    width:100%;
     background-color:gray;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top:0;
+    font-size:4rem;
+    color:white;
+}
+
+footer {
+    background-color: blue;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height:10%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 
 @media (max-width:800px) {
