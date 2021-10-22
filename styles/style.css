@@ -60,6 +60,16 @@ h1 {
     width:100%;
 }
 
+#linktiles {
+    display:flex;
+    justify-content: center;
+}
+
+.link-tile {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     background-color: blue;
     border-top-left-radius:40px;
