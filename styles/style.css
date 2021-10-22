@@ -6,6 +6,7 @@ html,body {
     text-align:center;
 }
 
+
 header {
     position:sticky;
     top:0;
@@ -56,18 +57,29 @@ h1 {
 }
 
 #links {
-    height:20%;
+    height:50%;
     width:100%;
+    background-color: indigo;
+    border-radius:80px;
+    color:white;
+    padding: 5% 0% 5% 0%;
 }
 
 #linktiles {
     display:flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    padding:3% 15% 0% 15%;
+    background-color:yellow;
+    align-items: center;
 }
 
 .link-tile {
     display: flex;
     flex-direction: column;
+    padding:3%;
+    background-color: grey;
+    border-radius:40px;
+    border:1px white solid;
 }
 
 footer {
