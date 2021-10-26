@@ -95,6 +95,7 @@ a {
     border:1px white solid;
     align-items: center;
     opacity:0.5;
+    transition:2s;
 }
 
 .link-tile:hover {
