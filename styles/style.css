@@ -4,6 +4,7 @@ html,body {
     margin:0;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align:center;
+    background-color: #565656;
 }
 
 
@@ -12,7 +13,7 @@ header {
     top:0;
     width:100%;
     height:8%;
-    background-color:red;
+    background-color:#0E2976;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -23,23 +24,21 @@ header {
 #title {
     padding-left:2rem;
     font-size:1.5rem;
+    color:white;
 }
 
-#navbar {
-    background-color: yellow;
-}
 
 .nav-links {
     font-size:1.5rem;
     height:100%;
     padding:1rem;
-    background-color: green;
+    background-color: #5656565d;
 }
 
 #welcome-section {
     height:100%;
     width:100%;
-    background-color:gray;
+    background-color:#1b1b1b;
     display:flex;
     align-items:center;
     justify-content: center;
@@ -51,18 +50,30 @@ h1 {
     color:white;
 }
 
+h2 {
+    margin-top:0;
+    padding-top:3rem;
+    font-size:2.5rem;
+    color:white;
+}
+
+a {
+    color:white;
+}
+
+
 #projects {
     height:80%;
     width:100%;
+    background-color: #565656;
 }
 
 #links {
     height:50%;
     width:100%;
-    background-color: grey;
-    border-radius:80px;
+    background-color: #1b1b1b;
     color:white;
-    padding: 3% 0% 4% 0%;
+    padding: 0% 0% 7% 0%;
 }
 
 #linktiles {
@@ -71,8 +82,7 @@ h1 {
     padding:3% 15% 3% 15%;
     margin-left:10%;
     margin-right:10%;
-    border-radius:80px;
-    background-color:black;
+    background-color:#565656;
     border:1px solid white;
 }
 
@@ -80,13 +90,13 @@ h1 {
     display: flex;
     flex-direction: column;
     padding:3%;
-    background-color: grey;
+    background-color: rgba(221, 221, 221, 0.2);
     border-radius:40px;
     border:1px white solid;
 }
 
 footer {
-    background-color: blue;
+    background-color: #0E2976;
     border-top-left-radius:40px;
     border-top-right-radius:40px;
     margin-left: 20%;
@@ -96,11 +106,12 @@ footer {
     align-items:center;
     justify-content: center;
     margin-top:5%;
+    color:white;
 }
 
 @media (max-width:800px) {
     section {
-        background-color:black;
+        background-color:#565656;
         color:white;
     }
     #linktiles {
