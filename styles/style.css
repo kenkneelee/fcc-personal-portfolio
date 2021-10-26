@@ -69,6 +69,24 @@ a {
     background-color: #565656;
 }
 
+#project-tiles {
+    display:flex;
+}
+
+.projectimage {
+    width:80%;
+    height:auto;
+}
+
+.projectlink {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1b1b1b;
+    padding: 10% 0% 10% 0%;
+}
+
 #links {
     height:50%;
     width:100%;
