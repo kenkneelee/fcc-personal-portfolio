@@ -164,6 +164,21 @@ footer:hover {
         background-color:#565656;
         color:white;
     }
+
+    #projects {
+        height:450%;
+        width:auto;
+    }
+
+    #project-tiles {
+        flex-direction: column;
+    }
+
+    #links {
+        height:150%;
+        width:auto;
+    }
+
     #linktiles {
         flex-direction: column;
     }
