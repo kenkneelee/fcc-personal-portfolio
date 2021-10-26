@@ -19,6 +19,7 @@ header {
     align-items:center;
     align-content: center;
     overflow: hidden;
+    opacity:0.8;
 }
 
 #title {
@@ -116,10 +117,18 @@ footer {
     margin-right: 20%;
     height:10%;
     display:flex;
+    flex-direction: column;
     align-items:center;
     justify-content: center;
     margin-top:5%;
     color:white;
+    opacity:0.5;
+    transition:2s;
+}
+
+footer:hover {
+    opacity:1;
+    transition:1s;
 }
 
 @media (max-width:800px) {
